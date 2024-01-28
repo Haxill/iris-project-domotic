@@ -410,26 +410,23 @@ while True:
                 if 'allume' in texte:
                     chatgpt_reponse = lumRep1
                     turn_on_entree()
-                    skip_openai_api = True
                 else:
                     chatgpt_reponse = lumRep2
                     turn_off_entree()
-                    skip_openai_api = True
             except:
                 chatgpt_reponse = lumRep3
-                skip_openai_api = True
+            skip_openai_api = True
                 
         # Speedtest by ookla
         elif 'vitesse' and 'connexion' in texte:
             if not test_connexion():
                 chatgpt_reponse = internet1
-                skip_openai_api = True
             else:
                 if not test_cli():
                     telecharger_cli()
                 up, dl = lancer_test()
                 chatgpt_reponse = "La vitesse de téléchargement est de " +dl+ " Méga. Et la vitesse en envoie est de " +up+ " Méga."
-                skip_openai_api = True
+            skip_openai_api = True
 
         # Flux RSS
         elif 'neuf' and 'monde' in texte:
