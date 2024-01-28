@@ -26,7 +26,7 @@ pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Ye
 4. Suivez les instructions vocales pour interagir avec l'IA.
 
 ## Fonctionnalités Principales
-- Contrôle de l'éclairage
+- Contrôle de l'éclairage Xiaomi
 - Gestion du robot aspirateur Xiaomi
 - Tests de vitesse de connexion
 - Lecture et traduction des actualités d'un flux RSS
