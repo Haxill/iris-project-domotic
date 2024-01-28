@@ -15,9 +15,12 @@ pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Ye
 
 ## Configuration de l'IA
 - Clé API OpenAI: Remplacez `<API_OPENAI>` dans le script par votre clé API OpenAI.
+- Modèle d'OpenAI: Vous pouvez remplacer le `model_engine` par gpt-4, si vous le souhaitez.
+- Token et IPs: Assurez-vous de remplacer `token` par vos propres tokens et `ip` par vos adresses IP.
+- Votre Nom: Remplacer `myname` par le nom par lequel vous souhaitez que l'IA vous appelle.
 
 ## Utilisation
-1. Exécutez le script dans un environnement Python 3.9.13.
+1. Exécutez le script dans un environnement Python 3.9.13 sous WIndows 10.
 2. Suivez les instructions vocales pour interagir avec l'IA.
 
 ## Fonctionnalités Principales
@@ -35,8 +38,3 @@ pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Ye
 
 ## Licence
 Ce script est sous licence [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) - voir le fichier [LICENSE](https://github.com/Haxill/iris-project-domotic/blob/main/LICENSE) pour plus de détails.
-
-
-fonctions: 10
-constantes: 47
-
