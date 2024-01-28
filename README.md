@@ -21,6 +21,8 @@ pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Ye
 
 ## Utilisation
 1. Exécutez le script dans un environnement Python 3.9.13 sous WIndows 10.
+2. Le script vérifie que vous avez internet sinon s'arrête.
+3. Il vérifie la présence des modules, sinon les installes.
 2. Suivez les instructions vocales pour interagir avec l'IA.
 
 ## Fonctionnalités Principales
