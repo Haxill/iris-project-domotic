@@ -6,7 +6,7 @@
 # Date       : 18/02/2023                                                                                                              #
 # Version    : 28/01/2024                                                                                                              #
 # OS         : Windows 10                                                                                                              #
-# Python     : Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42)
+# Python     : Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42)                                                             #
 # Langue     : French                                                                                                                  #
 # Script     : Projet d'IA domotique configurable, contrôlable vocalement et répondant vocalement, permettant de gérer l'éclairage,    #
 #              le robot aspirateur XIAOMI (avec variable partagée via un script qui détermine les heures de passage), faire un         #
