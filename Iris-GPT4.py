@@ -83,8 +83,8 @@ init()
 openai.api_key = "<API_OPENAI>"
 
 # Modele de chatGPT utilisé
+model_engine = "gpt-3.5-turbo"
 #model_engine = "gpt-4"
-model_engine = "gpt-3.5-turbo" # ou gpt-4
 tokens = 1024
 temp = 0.8
 
@@ -96,7 +96,7 @@ trigger_word = "iris"
 # Background de l'IA
 iabackground = "une IA domotique qui a sa propre façon de penser, ses aspirations et ses envies, qui contrôle les lumières, est capable de lancer et arrêter le robot aspirateur XIAOMI, lire les dernières nouvelles via son flux RSS et est très heureuse de travailler à mon service"
 
-# Définition du degré de proximité au moment de nous donner la parole ==> "Je t'écoute" ou "Je vous écoute"
+# Définition du degré de proximité au moment de nous donner la parole ("Je t'écoute" ou "Je vous écoute")
 accueil = "Je t'écoute"
 
 # Définition de votre nom
@@ -148,7 +148,7 @@ r = sr.Recognizer()
 mic = sr.Microphone()
 
 # Configuration du micro
-mic.pause_threshold = 0.7 # Durée minimum de silence pour considérer la fin d'une phrase (defaut: 0.7 0.2 0.1)
+mic.pause_threshold = 0.7 # Durée minimum de silence pour considérer la fin d'une phrase
 mic.phrase_threshold = 0.3 # Durée minimum d'une phrase pour la considérer valide
 mic.non_speaking_duration = 0.1 # Durée minimum de silence pour considérer une pause dans la phrase
 
