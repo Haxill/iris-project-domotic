@@ -58,7 +58,7 @@ os.system("cls")
 print("\nVérification des prérequis...\n")
 
 # Liste des modules nécessaires
-required_modules = ['openai', 'sqlite3', 'gTTS', 'pygame', 'datetime', 'speech_recognition', 'os', 'python-miio', 'Yeelight', 'requests', 'zipfile', 'feedparser', 'bs4', 'colorama', 'langdetect', 'mtranslate']
+required_modules = ['openai', 'sqlite3', 'gTTS', 'pygame', 'datetime', 'speech_recognition', 'os', 'python-miio', 'Yeelight', 'requests', 'zipfile', 'feedparser', 'bs4', 'colorama', 'langdetect', 'mtranslate', 'importlib']
 
 # Fonction de check des modules nécessaires au fonctionnement du script
 def check_and_install_module(module_name):
