@@ -25,13 +25,14 @@ pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Ye
 1. Exécutez le script "Iris-GPT4.py" dans un environnement Python 3.9.13 sous WIndows 10 ou 11.
 2. Le script vérifie que vous avez internet sinon s'arrête.
 3. Il vérifie la présence des modules, sinon les installes.
-4. Suivez les instructions vocales pour interagir avec l'IA.
+4. Lorsqu'apparait dans la fenêtre "J'écoute...", vous pouvez parler. Sinon appelez-la par son nom et attendez sa réponse pour pouvoir discuter à nouveau/reprendre la conversation avec l'IA.
 
 ## Fonctionnalités Principales
 - Contrôle de l'éclairage Xiaomi
 - Gestion du robot aspirateur Xiaomi
 - Tests de vitesse de connexion
 - Lecture et traduction des actualités d'un flux RSS
+- Création d'un fichier de base de données en local, dans le répertoire du script principal, pour l'interactivité des conversations
 - Conversations générales avec l'IA
 
 ## Auteurs
