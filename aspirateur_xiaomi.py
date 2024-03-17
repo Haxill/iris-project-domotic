@@ -4,7 +4,7 @@
 # Engine     : tkinter, colorama, requests, importlib, miio, datetime, scapy, time, os.                                                #
 # Date       : 22/02/2023                                                                                                              #
 # Version    : 30/01/2024                                                                                                              #
-# OS         : Windows 10/11                                                                                                           #
+# OS         : Windows 10 - Windows 11                                                                                                 #
 # Python     : Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42)                                                             #
 # Langue     : French                                                                                                                  #
 # Script     : Script de programmation de l'aspirateur robot Xiaomi : Mi Robot Vacuum-Mop 2 Pro. Affichant tous les détails            #
