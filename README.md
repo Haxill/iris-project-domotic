@@ -35,7 +35,7 @@ pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Ye
 - Création d'un fichier de base de données en local, dans le répertoire du script principal, pour l'interactivité des conversations
 - Conversations générales avec l'IA
 
-## Auteurs
+## Auteur
 - HAXILL
 
 ## Version
