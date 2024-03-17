@@ -4,11 +4,12 @@
 Ce projet est une application d'IA domotique configurable, contrôlable vocalement et capable de répondre vocalement. Il permet de gérer divers aspects tels que l'éclairage, le robot aspirateur Xiaomi, les tests de vitesse de connexion, la lecture et la traduction des nouvelles d'un flux RSS, ainsi que des conversations générales.
 
 ## Configuration Requise
-- Système d'exploitation: Windows 10
+- Système d'exploitation: Windows 10 / Windows 11
 - Python: Version 3.9.13
 - Modules externes: openai, sqlite3, gTTS, pygame, datetime, speech_recognition, os, miio, Yeelight, requests, zipfile, feedparser, bs4, colorama, langdetect, mtranslate
 
 ## Installation des Modules
+L'installation des modules se fait automatiquement, après un test de connexion internet, en lançant le script.
 ```bash
 pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Yeelight requests zipfile feedparser beautifulsoup4 colorama langdetect mtranslate
 ```
@@ -20,7 +21,7 @@ pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Ye
 - Votre Nom: Remplacer `myname` par le nom par lequel vous souhaitez que l'IA vous appelle.
 
 ## Utilisation
-1. Exécutez le script dans un environnement Python 3.9.13 sous WIndows 10.
+1. Exécutez le script dans un environnement Python 3.9.13 sous WIndows 10 ou 11.
 2. Le script vérifie que vous avez internet sinon s'arrête.
 3. Il vérifie la présence des modules, sinon les installes.
 4. Suivez les instructions vocales pour interagir avec l'IA.
