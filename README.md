@@ -2,6 +2,7 @@
 
 ## Description
 Ce projet est une application d'IA domotique configurable, contrôlable vocalement et capable de répondre vocalement. Il permet de gérer divers aspects tels que l'éclairage, le robot aspirateur Xiaomi, les tests de vitesse de connexion, la lecture et la traduction des nouvelles d'un flux RSS, ainsi que des conversations générales.
+Afin de faire fonctionner la connexion avec le robot aspirateur Xiaomi, il faut lancer le script "aspirateur_xiaomi.py" en parallèle du script principal "Iris-GPT4.py" (partageant des variables).
 
 ## Configuration Requise
 - Système d'exploitation: Windows 10 / Windows 11
@@ -15,13 +16,13 @@ pip install openai sqlite3 gTTS pygame datetime SpeechRecognition python-miio Ye
 ```
 
 ## Configuration de l'IA
-- Clé API OpenAI: Remplacez `<API_OPENAI>` dans le script par votre clé API OpenAI.
+- Clé API OpenAI: Remplacez `<API_OPENAI>` dans le script "Iris-GPT4.py" par votre clé API OpenAI.
 - Modèle d'OpenAI: Vous pouvez remplacer le `model_engine` par gpt-4, si vous le souhaitez.
 - Token et IPs: Assurez-vous de remplacer `token` par vos propres tokens et `ip` par vos adresses IP.
 - Votre Nom: Remplacer `myname` par le nom par lequel vous souhaitez que l'IA vous appelle.
 
 ## Utilisation
-1. Exécutez le script dans un environnement Python 3.9.13 sous WIndows 10 ou 11.
+1. Exécutez le script "Iris-GPT4.py" dans un environnement Python 3.9.13 sous WIndows 10 ou 11.
 2. Le script vérifie que vous avez internet sinon s'arrête.
 3. Il vérifie la présence des modules, sinon les installes.
 4. Suivez les instructions vocales pour interagir avec l'IA.
